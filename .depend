@@ -1,0 +1,5 @@
+main.o: main.c global.h lru_stack.h hash_table.h red_black_tree.h trace.h
+lru_stack.o: lru_stack.c global.h lru_stack.h hash_table.h \
+  red_black_tree.h
+red_black_tree.o: red_black_tree.c red_black_tree.h global.h sglib.h
+hash_table.o: hash_table.c sglib.h hash_table.h global.h
