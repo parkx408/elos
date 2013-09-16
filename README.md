@@ -31,3 +31,5 @@ Steps for generating synthetic trace.
 5. Plot.
 
   >cache_result/plot_cache_hit.R
+
+EOF
